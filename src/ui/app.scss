@@ -1,0 +1,46 @@
+body {
+    padding: 20px;
+}
+
+.rotating-icon {
+    display: inline-block;
+    animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes twist-up {
+    to {
+        transform: rotateX(360deg);
+    }
+}
+
+.app {
+    margin-right: 12.5vw;
+    margin-left: 12.5vw;
+    .random-word {
+        padding: 0.7rem;
+        border: 1px solid black;
+
+        &:hover {
+            background-color: green;
+            opacity: 0.6;
+            cursor: pointer;
+        }
+    }
+
+    .random-word2 {
+        padding: 0.7rem;
+        border: 1px solid black;
+    }
+
+    .address {
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        width: 50vw;
+    }
+}

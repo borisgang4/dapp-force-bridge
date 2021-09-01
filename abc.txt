@@ -1,0 +1,5 @@
+Deployed contract address: 0x6933a1b12476A7fbfef565c1b8cc92ee5e14a2a8
+Deploy transaction hash: 0x7fe4235c3460aba9be6929535aeb712910d9582e3401b34427f2fe00103293fd
+
+Your sUDT id: 4271
+Deployed SUDT-ERC20 Proxy contract address: 0x8969c77689DCfBdC06083C15E71E290D6C10DD5B
